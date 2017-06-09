@@ -1137,6 +1137,7 @@ var _createHtmlBridge = function() {
   var container = _document.createElement("div");
   container.id = _globalConfig.containerId;
   container.className = _globalConfig.containerClass;
+  container.setAttribute('aria-hidden', true);
   container.style.position = "absolute";
   container.style.left = "0px";
   container.style.top = "-9999px";
